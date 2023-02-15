@@ -1,0 +1,43 @@
+<template>
+  <div>
+    <v-row justify="center">
+      <v-col class="col-md-6">
+        <v-card class="px-10 mt-10">
+          <div class="text-center py-5">
+            <img src="~/static/Logo.png" style="max-width: 100%" />
+          </div>
+          <h2>Login</h2>
+          <p>Please login to Continue.</p>
+          <div>
+            <v-form class="pb-5">
+              <div>
+                <span class="font-weight-regular">Name:</span>
+                <v-text-field outlined dense />
+              </div>
+              <div>
+                <span class="font-weight-regular">Phone#</span>
+                <v-text-field outlined dense />
+              </div>
+              <div>
+                <span class="font-weight-regular">Adress:</span>
+                <v-text-field outlined dense />
+              </div>
+              <div class="mb-5">
+                <v-btn block color="primary" to="step-1">Log in</v-btn>
+              </div>
+            </v-form>
+          </div>
+        </v-card>
+      </v-col>
+    </v-row>
+  </div>
+</template>
+
+
+<script>
+export default {
+  mounted() {
+    this.$store.commit("changeBg", "var(--v-primary-base)");
+  },
+};
+</script>

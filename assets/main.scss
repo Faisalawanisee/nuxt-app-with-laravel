@@ -1,0 +1,58 @@
+body {
+  font-family: 'Montserrat' !important;
+}
+
+
+.v-application {
+  font-family: 'Montserrat' !important;
+}
+.v-btn--is-elevated.shadow-light {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.v-sheet.v-card:not(.v-sheet--outlined).login-card-shadow {
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 11%);
+}
+
+.v-sheet.v-card:not(.v-sheet--outlined).blogs-card-shadow {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+.v-sheet.v-card:not(.v-sheet--outlined).team-card-shadow {
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1) !important;
+}
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+  box-shadow: none !important;
+}
+
+.headings {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: #FCBA03;
+  left: 0;
+  top: 60px;
+  right: 0;
+  margin: auto;
+}
+
+p {
+  color: #313131;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media screen and(min-width: 1230px) {
+  .container {
+    max-width: 1230px !important;
+  }
+}

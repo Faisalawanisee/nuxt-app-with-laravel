@@ -1,0 +1,34 @@
+<!-- <template>
+  <div>
+    <HomeBanner />
+    <HomeAbout />
+    <HomeClients />
+    <HomeServices />
+    <HomeTeam />
+    <HomeBlogs />
+  </div>
+</template>
+
+<script>
+
+export default {
+  layout: 'home'
+}
+</script> -->
+
+
+<!-- <template>
+  <div>
+
+  </div>
+</template>
+
+<script>
+export default {
+  middleware: [
+    function({ redirect }) {
+      redirect('/home');
+    },
+  ],
+};
+</script> -->
